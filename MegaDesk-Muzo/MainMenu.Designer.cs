@@ -58,7 +58,6 @@ namespace MegaDesk_Muzo
             this.ViewSecondForm.TabIndex = 1;
             this.ViewSecondForm.Text = "&View Quotes";
             this.ViewSecondForm.UseVisualStyleBackColor = true;
-            this.ViewSecondForm.Click += ViewSecondFormClick;
             // 
             // ViewThirdForm
             // 
@@ -68,7 +67,6 @@ namespace MegaDesk_Muzo
             this.ViewThirdForm.TabIndex = 2;
             this.ViewThirdForm.Text = "&Search Quotes";
             this.ViewThirdForm.UseVisualStyleBackColor = true;
-            this.ViewThirdForm.Click += ViewThirdFormClick;
             // 
             // ViewFourthForm
             // 
@@ -76,7 +74,7 @@ namespace MegaDesk_Muzo
             this.ViewFourthForm.Name = "ViewFourthForm";
             this.ViewFourthForm.Size = new System.Drawing.Size(208, 67);
             this.ViewFourthForm.TabIndex = 3;
-            this.ViewFourthForm.Text = "E&xist";
+            this.ViewFourthForm.Text = "E&xit";
             this.ViewFourthForm.UseVisualStyleBackColor = true;
             this.ViewFourthForm.Click += new System.EventHandler(this.ViewFourthForm_Click);
             // 
